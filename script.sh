@@ -1,6 +1,6 @@
 #/bin/zsh
 
-# create a token in gitlab with "api" permissions
+# create a token in gitlab with "api" permissions : https://gitlab.com/-/profile/personal_access_tokens
 GRAPHQL_TOKEN=
 
 name=(
@@ -17,16 +17,16 @@ name=(
 )
 
 content=(
-  "**praise (\"non-blocking,blocking,if-minor\"):** [subject]"
-  "**nitpick (\"non-blocking,blocking,if-minor\"):** [subject]"
-  "**suggestion (\"non-blocking,blocking,if-minor\"):** [subject]"
-  "**issue (\"non-blocking,blocking,if-minor\"):** [subject]"
-  "**todo (\"non-blocking,blocking,if-minor\"):** [subject]"
-  "**question (\"non-blocking,blocking,if-minor\"):** [subject]"
-  "**thought (\"non-blocking,blocking,if-minor\"):** [subject]"
-  "**chore (\"non-blocking,blocking,if-minor\"):** [subject]"
-  "**note (\"non-blocking,blocking,if-minor\"):** [subject]"
-  "**typo (\"non-blocking,blocking,if-minor\"):** [subject]"
+  "**praise (\"non-blocking,blocking,if-minor,test,security\"):** [subject]"
+  "**nitpick (\"non-blocking,blocking,if-minor,test,security\"):** [subject]"
+  "**suggestion (\"non-blocking,blocking,if-minor,test,security\"):** [subject]"
+  "**issue (\"non-blocking,blocking,if-minor,test,security\"):** [subject]"
+  "**todo (\"non-blocking,blocking,if-minor,test,security\"):** [subject]"
+  "**question (\"non-blocking,blocking,if-minor,test,security\"):** [subject]"
+  "**thought (\"non-blocking,blocking,if-minor,test,security\"):** [subject]"
+  "**chore (\"non-blocking,blocking,if-minor,test,security\"):** [subject]"
+  "**note (\"non-blocking,blocking,if-minor,test,security\"):** [subject]"
+  "**typo (\"non-blocking,blocking,if-minor,test,security\"):** [subject]"
 )
 
 for ((i = 0; i < ${#name[@]}; i++)); do
